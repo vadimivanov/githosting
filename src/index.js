@@ -19,3 +19,4 @@ function random(number) {
     return randomItems;
   }
 }
+function empty(number) {}
