@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/starwars-names.git"
+    "url": "https://github.com/vadimivanov/githosting.git"
   },
   "keywords": [
     "random",
@@ -31,9 +31,9 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/starwars-names/issues"
+    "url": "https://github.com/vadimivanov/githosting/issues"
   },
-  "homepage": "https://github.com/kentcdodds/starwars-names#readme",
+  "homepage": "https://github.com/vadimivanov/githosting#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
