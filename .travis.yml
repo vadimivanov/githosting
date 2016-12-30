@@ -20,7 +20,7 @@ before_script:
 
 script:
   - npm run cover
-#  - npm run check-coverage
+  - npm run check-coverage
   - npm run report-coverage
 
 after_success:
