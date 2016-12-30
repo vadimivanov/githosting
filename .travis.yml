@@ -1,20 +1,31 @@
 sudo: false
 language: node_js
+
 cache:
   directories:
     - node_modules
+
 notifications:
   email: false
+
 node_js:
   - "6"
+
 install:
   - npm install -g codecov
   - npm install
+
 before_script:
   - npm prune
+
 script:
   - npm run cover
 #  - npm run check-coverage
+
 after_success:
   - npm run report-coverage
 #  - npm run semantic-release
+
+branches:
+  only:
+    - master
